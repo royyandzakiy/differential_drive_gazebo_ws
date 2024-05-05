@@ -1,4 +1,4 @@
-# ROS 2 Learning: Creating URDF (Xacro) & Launch files for Gazebo
+# ROS2 Learning: Creating URDF (Xacro) & Launch files for Gazebo
 
 Implementing the code from a tutorial made by Aleksander Haber
 
@@ -6,9 +6,12 @@ source: [Install Gazebo in ROS2 (Iron Irwini) and Run Differential Drive Robot E
 
 ### Getting Started
 
-- `source /opt/ros/iron/setup.bash`
-- `cd ws_mobile`
+- this uses linux 22.04
+- install ros2 (iron irwini) & dependencies
+
+- `cd differential_drive_gazebo_ws`
 - `colcon build`
+- `source /opt/ros/iron/setup.bash`
 - `source install/setup.bash`
 - `ros2 launch ws_mobile gazebo_model.launch.py`
 

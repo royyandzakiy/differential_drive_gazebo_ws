@@ -15,7 +15,7 @@ def generate_launch_description():
 
         # this is the name of our package, at the same time this is the name of the
         # folder that will be used to define the paths
-        namePackage='mobile_robot'
+        namePackage='differential_drive_gazebo'
 
         # this is a relative path to the xacro file defining the model
         modelFileRelativePath='model/robot.xacro'

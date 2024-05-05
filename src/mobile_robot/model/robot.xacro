@@ -44,7 +44,7 @@
 
 
 <!-- Over here we include the file that defines extra Gazebo options and motion control driver -->
-<xacro:include filename="$(find mobile_robot)/model/robot.gazebo" />
+<xacro:include filename="$(find differential_drive_gazebo)/model/robot.gazebo" />
 
 <!-- ######################################### -->
 <!-- FROM HERE WE DEFINE LINKS, JOINTS -->
